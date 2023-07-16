@@ -76,15 +76,6 @@ export class Phonebook extends Component {
           <button type="submit">Add Contact</button>
         </form>
         <Section title={'Contacts'} />
-        {/* <ul>
-          {contacts.map(contact => (
-            <li key={contact.id}>
-              <div>
-                {contact.name}:{contact.number}
-              </div>
-            </li>
-          ))}
-        </ul>*/}
         <input
           type="text"
           name="filter"
